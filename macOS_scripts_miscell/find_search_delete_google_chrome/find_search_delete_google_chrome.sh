@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# if using FileWave MDM, then following two lines will output to FileWave client log.
+# if not, then comment or delete next two lines.
 exec 1>>/var/log/fwcld.log
 exec 2>>/var/log/fwcld.log
 
